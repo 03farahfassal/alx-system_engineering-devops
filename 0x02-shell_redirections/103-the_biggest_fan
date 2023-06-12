@@ -1,2 +1,2 @@
 #!/bin/bash
--d '' -f -1 | rev
+-d ' ' -f -1 | rev
