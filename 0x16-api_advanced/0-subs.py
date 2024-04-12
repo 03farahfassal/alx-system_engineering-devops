@@ -3,7 +3,8 @@
 
 
 def number_of_subscribers(subreddit):
-    """Query the Reddit API,
+    """Query the Reddit API.
+
     and return the number of subscribers to the subreddit.
 
     Args:
