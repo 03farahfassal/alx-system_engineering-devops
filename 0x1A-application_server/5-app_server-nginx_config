@@ -29,6 +29,10 @@ server {
                 proxy_pass http://127.0.0.1:5002/api;
                 }
                 Location / {
+        	# add_header X-Served-By $hostname;
+        	# root /var/www/html;
+        	# index index.html;
+        	# error_page 404 /error.html;
                 proxy_pass https://127.0.0.1:5003/2-hbnb;
                 }
                 Location / static{
